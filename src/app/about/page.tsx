@@ -29,19 +29,7 @@ export default function About() {
                 </div>
               </div>
               
-              <div className="mt-8 space-y-6">
-                <div className="bg-gray-50 p-6">
-                  <h4 className="text-lg font-semibold mb-3 text-gray-900">Education</h4>
-                  <ul className="space-y-3 text-gray-700">
-                    <li className="border-l-2 border-gray-300 pl-4 py-1">
-                      <p className="font-medium">PhD International Relations</p>
-                      <p className="text-sm text-gray-500">Durham University</p>
-                    </li>
-                  </ul>
-                </div>
-                
-                
-              </div>
+
             </div>
             
             {/* Right Column - Bio */}
