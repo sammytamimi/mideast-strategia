@@ -102,9 +102,6 @@ export default function Analysis() {
                 <Link href="https://www.ispionline.it/en/publication/economic-cooperation-a-driver-of-stability-in-the-mena-region-195341" className="text-blue-600 hover:underline font-medium">
                   Read More
                 </Link>
-                <a href="/pdfs/gcc-visions.pdf" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-gray-700">
-                  <Image src="/file.svg" alt="PDF Document" width={20} height={20} />
-                </a>
               </div>
             </div>
           </div>
