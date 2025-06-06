@@ -4,13 +4,12 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
-      <main className="flex-grow container mx-auto px-4 sm:px-6 py-12 max-w-6xl">
-        <div className="grid md:grid-cols-2 gap-8 md:gap-16 items-center">
+      <main className="flex-grow container mx-auto px-4 sm:px-6 py-16 max-w-6xl">
+        <h1 className="text-4xl md:text-5xl font-bold mb-12 leading-tight">
+          MidEast Strategia
+        </h1>
+        <div className="grid md:grid-cols-2 gap-8 md:gap-16 items-start">
           <div className="order-2 md:order-1 max-w-md mx-auto md:max-w-3xl md:mx-0">
-            <h1 className="text-4xl hidden md:block md:text-5xl font-bold mb-8 leading-tight">
-              MidEast Strategia
-            </h1>
-            
             <div className="space-y-6">
               <p className="text-lg text-gray-700">
                 Welcome to MidEast Strategia. A premier source for in-depth analysis of the Middle East's evolving strategic landscape, with a special focus on China-Gulf relations.
@@ -23,15 +22,15 @@ export default function Home() {
             </div>
           </div>
           
-          <div className="order-1 md:order-2 bg-gray-100 aspect-square w-full max-w-sm mx-auto md:ml-auto mb-8 md:mb-0">
-  <Image 
-    src="/china-gulf-map.jpeg" 
-    alt="Political Imagery"
-    width={500}  
-    height={500} 
-    className="w-full h-full object-cover" 
-  />
-</div>
+          <div className="order-1 md:order-2 aspect-square w-full max-w-sm mx-auto md:ml-auto md:mb-0">
+            <Image 
+              src="/china-gulf-map.jpeg" 
+              alt="Political Imagery"
+              width={500}  
+              height={500} 
+              className="w-full h-full object-cover rounded" 
+            />
+          </div>
         </div>
         
         <div className="mt-24 grid md:grid-cols-3 gap-8 max-w-md mx-auto md:max-w-none">
