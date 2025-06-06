@@ -19,7 +19,7 @@ export default function About() {
                 alt="Political Imagery"
                 width={500}  
                 height={500} 
-                className="rounded-lg w-full h-full object-cover" 
+                className="w-full h-full object-cover" 
               />
               </div>
             </div>
