@@ -18,12 +18,11 @@ export default function Analysis() {
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
               />
             </div>
-            <div className="p-6">
+            <div className="px-6 py-4 flex flex-col flex-grow">
               <div className="flex items-center justify-between mb-2">
-                <h2 className="text-xl font-bold">China and Saudi Arabia: Strategic Ties in a Shifting Global Order</h2>
-                <Image src="/file.svg" alt="PDF Document" width={20} height={20} className="opacity-70 group-hover:opacity-100 transition-opacity" />
+                <h2 className="text-xl font-bold">The Relations Between China and Saudi Arabia: Continuity Amid New Challenges</h2>
               </div>
-              <span className="text-gray-900 font-medium text-sm flex items-center group-hover:underline">
+              <span className="text-gray-900 font-medium text-sm flex items-center group-hover:underline mt-auto">
                 View PDF
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -43,12 +42,11 @@ export default function Analysis() {
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
               />
             </div>
-            <div className="p-6">
+            <div className="px-6 py-4 flex flex-col flex-grow">
               <div className="flex items-center justify-between mb-2">
-                <h2 className="text-xl font-bold">China's Middle East Strategy: Economic Influence and Geopolitical Balancing</h2>
-                <Image src="/file.svg" alt="PDF Document" width={20} height={20} className="opacity-70 group-hover:opacity-100 transition-opacity" />
+                <h2 className="text-xl font-bold">China–Middle East Relations: Growing Amidst Turmoil</h2>
               </div>
-              <span className="text-gray-900 font-medium text-sm flex items-center group-hover:underline">
+              <span className="text-gray-900 font-medium text-sm flex items-center group-hover:underline mt-auto">
                 View PDF
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -68,12 +66,11 @@ export default function Analysis() {
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
               />
             </div>
-            <div className="p-6">
+            <div className="px-6 py-4 flex flex-col flex-grow">
               <div className="flex items-center justify-between mb-2">
-                <h2 className="text-xl font-bold">Qatar's LNG: Balancing Global Demand, Geopolitics, and Renewables</h2>
-                <Image src="/file.svg" alt="PDF Document" width={20} height={20} className="opacity-70 group-hover:opacity-100 transition-opacity" />
+                <h2 className="text-xl font-bold">Qatar’s LNG Between the Ukraine War and Renewable: Prospects and Challenges</h2>
               </div>
-              <span className="text-gray-900 font-medium text-sm flex items-center group-hover:underline">
+              <span className="text-gray-900 font-medium text-sm flex items-center group-hover:underline mt-auto">
                 View PDF
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -96,9 +93,9 @@ export default function Analysis() {
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
               />
             </div>
-            <div className="p-6">
+            <div className="px-6 py-4 flex flex-col flex-grow">
               <h2 className="text-xl font-bold mb-2">GCC Visions: Connecting Regional Stability to Economic Diversification</h2>
-              <div className="flex justify-between items-center">
+              <div className="flex justify-between items-center mt-auto">
                 <Link href="https://www.ispionline.it/en/publication/economic-cooperation-a-driver-of-stability-in-the-mena-region-195341" className="text-blue-600 hover:underline font-medium">
                   Read More
                 </Link>
@@ -117,9 +114,9 @@ export default function Analysis() {
                 className="w-full h-full object-cover object-left hover:scale-105 transition-transform duration-500"
               />
             </div>
-            <div className="p-6">
+            <div className="px-6 py-4 flex flex-col flex-grow">
               <h2 className="text-xl font-bold mb-2">Qatar's Growing Investments in Asia: Economics vs Geopolitics</h2>
-              <div className="flex justify-between items-center">
+              <div className="flex justify-between items-center mt-auto">
                 <Link href="https://www.ispionline.it/en/publication/qatars-growing-investments-in-asia-economics-vs-geopolitics-177964" className="text-blue-600 hover:underline font-medium">
                   Read More
                 </Link>
@@ -138,9 +135,9 @@ export default function Analysis() {
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
               />
             </div>
-            <div className="p-6">
+            <div className="px-6 py-4 flex flex-col flex-grow">
               <h2 className="text-xl font-bold mb-2">Saudi Arabia's once marginal relationship with China has grown into a comprehensive strategic partnership</h2>
-              <div className="flex justify-between items-center">
+              <div className="flex justify-between items-center mt-auto">
                 <Link href="https://merics.org/en/saudi-arabias-once-marginal-relationship-china-has-grown-comprehensive-strategic-partnership" className="text-blue-600 hover:underline font-medium">
                   Read More
                 </Link>
