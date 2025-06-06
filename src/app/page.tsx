@@ -45,7 +45,7 @@ export default function Home() {
         <div className="mt-24 grid md:grid-cols-3 gap-8">
           <a href="/pdfs/china-saudi-relations.pdf" target="_blank" rel="noopener noreferrer" className="p-6 border border-gray-200 hover:border-gray-300 hover:shadow-md transition-all cursor-pointer group">
             <div className="flex items-center justify-between mb-4">
-              <h3 className="text-xl font-bold">China and Saudi Arabia: Strategic Ties in a Shifting Global Order</h3>
+              <h3 className="text-xl font-bold">The Relations Between China and Saudi Arabia: Continuity Amid New Challenges</h3>
               <Image src="/file.svg" alt="PDF Document" width={24} height={24} className="opacity-70 group-hover:opacity-100 transition-opacity" />
             </div>
             <p className="text-gray-700 mb-4">Saudi Arabia and China have deepened their economic and diplomatic ties, driven by energy trade, strategic investments, and geopolitical recalibrations, while Riyadh carefully balances its longstanding security alliance with the U.S. amid evolving regional and global dynamics.</p>
@@ -59,7 +59,7 @@ export default function Home() {
           
           <a href="/pdfs/china-mideast-relations.pdf" target="_blank" rel="noopener noreferrer" className="p-6 border border-gray-200 hover:border-gray-300 hover:shadow-md transition-all cursor-pointer group">
             <div className="flex items-center justify-between mb-4">
-              <h3 className="text-xl font-bold">China’s Middle East Strategy: Economic Influence and Geopolitical Balancing</h3>
+              <h3 className="text-xl font-bold">China–Middle East Relations: Growing Amidst Turmoil</h3>
               <Image src="/file.svg" alt="PDF Document" width={24} height={24} className="opacity-70 group-hover:opacity-100 transition-opacity" />
             </div>
             <p className="text-gray-700 mb-4">China is expanding its influence in the Middle East through economic ties, energy security, and strategic partnerships while balancing relations with the U.S. and advancing global initiatives like the Belt and Road and BRICS.</p>
@@ -73,7 +73,7 @@ export default function Home() {
           
           <a href="/pdfs/qatar-lng.pdf" target="_blank" rel="noopener noreferrer" className="p-6 border border-gray-200 hover:border-gray-300 hover:shadow-md transition-all cursor-pointer group">
             <div className="flex items-center justify-between mb-4">
-              <h3 className="text-xl font-bold">Qatar’s LNG: Balancing Global Demand, Geopolitics, and Renewables</h3>
+              <h3 className="text-xl font-bold">Qatar’s LNG Between the Ukraine War and Renewable: Prospects and Challenges</h3>
               <Image src="/file.svg" alt="PDF Document" width={24} height={24} className="opacity-70 group-hover:opacity-100 transition-opacity" />
             </div>
             <p className="text-gray-700 mb-4">Qatar has strengthened its position as the world’s leading LNG exporter, benefiting from rising global demand amid the Ukraine war, but faces challenges from increasing U.S. competition, the shift to renewables, and the need for long-term contracts to sustain its economic and geopolitical influence.</p>
