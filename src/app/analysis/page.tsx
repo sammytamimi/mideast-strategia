@@ -44,7 +44,7 @@ export default function Analysis() {
           </div>
           <div className="px-6 py-4 flex flex-col flex-grow">
             <div className="flex items-center justify-between mb-2">
-              <h2 className="text-xl font-bold">China–Middle East Relations: Growing Amidst Turmoil</h2>
+              <h2 className="text-xl font-bold">China-Middle East Relations: Growing Amidst Turmoil</h2>
             </div>
             <span className="text-blue-600 font-medium text-sm flex items-center group-hover:underline mt-auto">
               View PDF

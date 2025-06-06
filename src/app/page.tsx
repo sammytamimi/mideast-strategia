@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
       <main className="flex-grow container mx-auto px-4 sm:px-6 py-16 max-w-6xl">
-        <h1 className="text-4xl md:text-5xl font-bold mb-12 leading-tight">
+        <h1 className="hidden md:block text-4xl md:text-5xl font-bold mb-12 leading-tight">
           MidEast Strategia
         </h1>
         <div className="grid md:grid-cols-2 gap-8 md:gap-16 items-start">
@@ -49,7 +49,7 @@ export default function Home() {
           
           <a href="/pdfs/china-mideast-relations.pdf" target="_blank" rel="noopener noreferrer" className="p-6 border border-gray-200 hover:border-gray-300 hover:shadow-md transition-all cursor-pointer group flex flex-col">
             <div className="flex items-center justify-between mb-4">
-              <h3 className="text-xl font-bold">China–Middle East Relations: Growing Amidst Turmoil</h3>
+              <h3 className="text-xl font-bold">China-Middle East Relations: Growing Amidst Turmoil</h3>
             </div>
             <p className="text-gray-700 mb-4">China is expanding its influence in the Middle East through economic ties, energy security, and strategic partnerships while balancing relations with the U.S. and advancing global initiatives like the Belt and Road and BRICS.</p>
             <span className="text-blue-600 font-medium text-sm flex items-center group-hover:underline mt-auto">

@@ -3,7 +3,7 @@ export default function Contact() {
     <div className="container mx-auto px-4 sm:px-6 py-16 max-w-6xl">
       <h1 className="text-4xl md:text-5xl font-bold mb-12 leading-tight text-center md:text-left">Contact</h1>
       <p className="text-lg text-gray-700 mb-12 md:text-left max-w-3xl">
-        We welcome opportunities for collaboration, media inquiries, and speaking engagements. Please feel free to reach out through any of the channels below. Welook forward to connecting with you.
+        We welcome opportunities for collaboration, media inquiries, and speaking engagements. Please feel free to reach out through any of the channels below. We look forward to connecting with you.
       </p>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:max-w-none md:mx-0">
         {/* Email Card */}
