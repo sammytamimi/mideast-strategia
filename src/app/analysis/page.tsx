@@ -105,6 +105,48 @@ export default function Analysis() {
               </div>
             </div>
           </div>
+
+          {/* Card 5 - Qatar's Growing Investments in Asia */}
+          <div className="flex flex-col h-full border border-gray-200 hover:border-gray-300 hover:shadow-md transition-all">
+            <div className="relative aspect-[4/3] w-full mb-4 overflow-hidden">
+              <Image 
+                src="/qatar_0.jpg" 
+                alt="Flag of Qatar" 
+                width={400}
+                height={300}
+                className="w-full h-full object-cover object-left hover:scale-105 transition-transform duration-500"
+              />
+            </div>
+            <div className="p-6">
+              <h2 className="text-xl font-bold mb-2">Qatar's Growing Investments in Asia: Economics vs Geopolitics</h2>
+              <div className="flex justify-between items-center">
+                <Link href="https://www.ispionline.it/en/publication/qatars-growing-investments-in-asia-economics-vs-geopolitics-177964" className="text-blue-600 hover:underline font-medium">
+                  Read More
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          {/* Card 6 - Saudi Arabia and China Partnership */}
+          <div className="flex flex-col h-full border border-gray-200 hover:border-gray-300 hover:shadow-md transition-all">
+            <div className="relative aspect-[4/3] w-full mb-4 overflow-hidden">
+              <Image 
+                src="/saudi_train.jpg" 
+                alt="Haramain high-speed train in Saudi Arabia" 
+                width={400}
+                height={300}
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+              />
+            </div>
+            <div className="p-6">
+              <h2 className="text-xl font-bold mb-2">Saudi Arabia's once marginal relationship with China has grown into a comprehensive strategic partnership</h2>
+              <div className="flex justify-between items-center">
+                <Link href="https://merics.org/en/saudi-arabias-once-marginal-relationship-china-has-grown-comprehensive-strategic-partnership" className="text-blue-600 hover:underline font-medium">
+                  Read More
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
       </main>
     </div>
