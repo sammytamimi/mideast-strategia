@@ -9,7 +9,7 @@ export default function Header() {
             MidEast<span className="font-light">Strategia</span>
           </Link>
         </div>
-        <nav className="flex space-x-10">
+        <nav className="flex space-x-12">
           <Link href="/" className="text-sm font-medium hover:text-gray-600 transition-colors">
             Home
           </Link>
@@ -18,6 +18,9 @@ export default function Header() {
           </Link>
           <Link href="/about" className="text-sm font-medium hover:text-gray-600 transition-colors">
             About
+          </Link>
+          <Link href="/about#contact" className="text-sm font-medium hover:text-gray-600 transition-colors">
+            Contact
           </Link>
         </nav>
       </div>

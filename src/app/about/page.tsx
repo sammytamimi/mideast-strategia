@@ -53,7 +53,7 @@ export default function About() {
                     He has extensively written on Saudi Arabia, the Gulf, and the Middle East for academic and popular outlets. His work has also appeared in major research centers like Brookings, ECFR, MERICS, and Friedrich-Ebert-Stiftung. He authored China-Saudi Arabia Relations, 1990-2012 (Routledge, 2014).
                   </p>
                   
-                  <div className="pt-8">
+                  <div id="contact" className="pt-8 scroll-mt-24">
                     <h2 className="text-3xl font-bold mb-8">Contact</h2>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                       {/* Email Card */}
@@ -70,7 +70,7 @@ export default function About() {
                           </div>
                         </div>
                         <div className="mt-4">
-                          <a href="mailto:" className="text-blue-600 hover:text-blue-800 text-sm font-medium">
+                          <a href="mailto:contact@mideaststrategia.com" className="text-blue-600 hover:text-blue-800 text-sm font-medium">
                             Contact via Email
                           </a>
                         </div>
