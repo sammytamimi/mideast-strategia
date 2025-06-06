@@ -5,7 +5,7 @@ export default function About() {
   return (
     <div className="flex flex-col min-h-screen">
       <main className="flex-grow container mx-auto px-4 sm:px-6 py-16 max-w-6xl">
-
+        <h1 className="text-4xl md:text-5xl font-bold mb-12 leading-tight text-center md:text-left">About</h1>
         
         {/* Profile Section */}
         <div>
