@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function About() {
   return (
     <div className="flex flex-col min-h-screen">
-      <main className="flex-grow container mx-auto px-6 py-16 max-w-6xl">
+      <main className="flex-grow container mx-auto px-4 sm:px-6 py-16 max-w-6xl">
 
         
         {/* Profile Section */}
