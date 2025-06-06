@@ -28,7 +28,7 @@ export default function Home() {
               alt="Political Imagery"
               width={500}  
               height={500} 
-              className="w-full h-full object-cover rounded" 
+              className="w-full h-full object-cover" 
             />
           </div>
         </div>
