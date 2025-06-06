@@ -23,13 +23,13 @@ export default function Home() {
             </div>
           </div>
           
-          <div className="order-1 md:order-2 bg-gray-100 aspect-square w-full max-w-md mx-auto md:ml-auto mb-8 md:mb-0">
+          <div className="order-1 md:order-2 bg-gray-100 aspect-square w-full max-w-sm mx-auto md:ml-auto mb-8 md:mb-0">
   <Image 
     src="/china-gulf-map.jpeg" 
     alt="Political Imagery"
     width={500}  
     height={500} 
-    className="rounded-lg w-full h-full object-cover" 
+    className="w-full h-full object-cover" 
   />
 </div>
         </div>
@@ -63,9 +63,9 @@ export default function Home() {
           
           <a href="/pdfs/qatar-lng.pdf" target="_blank" rel="noopener noreferrer" className="p-6 border border-gray-200 hover:border-gray-300 hover:shadow-md transition-all cursor-pointer group flex flex-col">
             <div className="flex items-center justify-between mb-4">
-              <h3 className="text-xl font-bold">Qatar’s LNG Between the Ukraine War and Renewable: Prospects and Challenges</h3>
+              <h3 className="text-xl font-bold">Qatar's LNG Between the Ukraine War and Renewable: Prospects and Challenges</h3>
             </div>
-            <p className="text-gray-700 mb-4">Qatar has strengthened its position as the world’s leading LNG exporter, benefiting from rising global demand amid the Ukraine war, but faces challenges from increasing U.S. competition, the shift to renewables, and the need for long-term contracts to sustain its economic and geopolitical influence.</p>
+            <p className="text-gray-700 mb-4">Qatar has strengthened its position as the world's leading LNG exporter, benefiting from rising global demand amid the Ukraine war, but faces challenges from increasing U.S. competition, the shift to renewables, and the need for long-term contracts to sustain its economic and geopolitical influence.</p>
             <span className="text-blue-600 font-medium text-sm flex items-center group-hover:underline mt-auto">
               View PDF
               <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">

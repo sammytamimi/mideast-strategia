@@ -7,7 +7,7 @@ export default function Contact() {
       </p>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:max-w-none md:mx-0">
         {/* Email Card */}
-        <div className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow duration-300">
+        <div className="bg-white border border-gray-200 p-6 hover:shadow-lg transition-shadow duration-300">
           <div className="flex items-center space-x-3">
             <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
               <svg className="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -26,7 +26,7 @@ export default function Contact() {
         </div>
 
         {/* Twitter Card */}
-        <div className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow duration-300">
+        <div className="bg-white border border-gray-200 p-6 hover:shadow-lg transition-shadow duration-300">
           <div className="flex items-center space-x-3">
             <div className="w-10 h-10 bg-black rounded-full flex items-center justify-center">
               <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
@@ -45,7 +45,7 @@ export default function Contact() {
         </div>
 
         {/* LinkedIn Card */}
-        <div className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow duration-300">
+        <div className="bg-white border border-gray-200 p-6 hover:shadow-lg transition-shadow duration-300">
           <div className="flex items-center space-x-3">
             <div className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center">
               <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
