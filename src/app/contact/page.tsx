@@ -19,8 +19,8 @@ export default function Contact() {
             </div>
           </div>
           <div className="mt-4">
-            <a href="mailto:contact@mideaststrategia.com" className="text-blue-600 hover:text-blue-800 text-sm font-medium">
-              Contact via Email
+            <a href="mailto:contact@mideaststrategia.org" className="text-blue-600 hover:text-blue-800 text-sm font-medium">
+              contact@mideaststrategia.org
             </a>
           </div>
         </div>
