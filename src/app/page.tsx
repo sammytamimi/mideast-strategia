@@ -7,7 +7,7 @@ export default function Home() {
       <main className="flex-grow container mx-auto px-4 sm:px-6 py-12 max-w-6xl">
         <div className="grid md:grid-cols-2 gap-8 md:gap-16 items-center">
           <div className="order-2 md:order-1 max-w-3xl">
-            <h1 className="text-4xl md:text-5xl font-bold mb-8 leading-tight">
+            <h1 className="text-4xl hidden md:block md:text-5xl font-bold mb-8 leading-tight">
               MidEast Strategia
             </h1>
             

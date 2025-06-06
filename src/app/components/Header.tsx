@@ -24,6 +24,9 @@ export default function Header() {
           <Link href="/about" className="text-sm font-medium hover:text-gray-600 transition-colors">
             About
           </Link>
+          <Link href="/contact" className="text-sm font-medium hover:text-gray-600 transition-colors">
+            Contact
+          </Link>
         </nav>
         <div className="md:hidden">
           <button onClick={() => setIsOpen(!isOpen)}>
@@ -55,6 +58,9 @@ export default function Header() {
             </Link>
             <Link href="/about" className="text-sm font-medium hover:text-gray-600 transition-colors" onClick={() => setIsOpen(false)}>
               About
+            </Link>
+            <Link href="/contact" className="text-sm font-medium hover:text-gray-600 transition-colors" onClick={() => setIsOpen(false)}>
+              Contact
             </Link>
           </nav>
         </div>
