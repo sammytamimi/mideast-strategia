@@ -40,7 +40,7 @@ export default function About() {
                 </div>
                 
                 <p>
-                  Dr. Naser al-Tamimi is the founder of MidEast Strategia, a think tank specialising in geostrategy, energy politics, and China-Gulf relations. He also serves as a Senior Associate Research Fellow at the Institute for International Political Studies (ISPI) in Milan, Italy, and a Senior Associate Fellow at the Global Institute for Strategic Research (GISR) in Doha, Qatar. His research primarily focuses on the Middle East, especially the Gulf region, with a particular interest in the interplay between energy dynamics and the diplomatic relationships between GCC countries and Asia, particularly China. Al-Tamimi earned his PhD in IR from the University of Durham (UK), where his thesis examined the bilateral ties between China and Saudi Arabia.
+                  Dr. Naser al-Tamimi is the founder of MidEast Strategia, a consultancy specialising in geostrategy, energy politics, and China-Gulf relations. He also serves as a Senior Associate Research Fellow at the Institute for International Political Studies (ISPI) in Milan, Italy, and a Senior Associate Fellow at the Global Institute for Strategic Research (GISR) in Doha, Qatar. His research primarily focuses on the Middle East, especially the Gulf region, with a particular interest in the interplay between energy dynamics and the diplomatic relationships between GCC countries and Asia, particularly China. Al-Tamimi earned his PhD in IR from the University of Durham (UK), where his thesis examined the bilateral ties between China and Saudi Arabia.
                 </p>
                 
                 <p>
