@@ -34,13 +34,13 @@ export default function About() {
               
               <div className="text-lg text-gray-700 space-y-6">
                 <div className="mb-6">
-                  <p className="font-semibold text-gray-900 mb-2">Founder, MidEastStrategia</p>
-                  <p className="mb-2"><span className="font-medium">Regional expertise:</span> Gulf, Middle East & North Africa (MENA), China (Asia)-MENA relations, and Saudi Arabia</p>
-                  <p><span className="font-medium">Specialist knowledge:</span> Geostrategy, Energy Politics, and Political Economy.</p>
+                  <p className="text-xl text-gray-600 mb-4">Founder, MidEast Strategia</p>
+                  <p className="mb-2"><span className="font-bold">Regional expertise:</span> Gulf, Middle East & North Africa (MENA), China (Asia)-MENA relations, and Saudi Arabia</p>
+                  <p><span className="font-bold">Specialist knowledge:</span> Geostrategy, Energy Politics, and Political Economy.</p>
                 </div>
                 
                 <p>
-                  Dr. Naser al-Tamimi is the founder of MidEast Strategia, a consultancy specialising in geostrategy, energy politics, and China-Gulf relations. He also serves as a Senior Associate Research Fellow at the Institute for International Political Studies (ISPI) in Milan, Italy, and a Senior Associate Fellow at the Global Institute for Strategic Research (GISR) in Doha, Qatar. His research primarily focuses on the Middle East, especially the Gulf region, with a particular interest in the interplay between energy dynamics and the diplomatic relationships between GCC countries and Asia, particularly China. Al-Tamimi earned his PhD in IR from the University of Durham (UK), where his thesis examined the bilateral ties between China and Saudi Arabia.
+                  Dr. Naser al-Tamimi is the founder of MidEast Strategia, a consultancy specialising in geostrategy, energy politics, and China-Gulf relations. He also serves as a Senior Associate Research Fellow at the Institute for International Political Studies (ISPI) in Milan, Italy, and a Senior Associate Fellow at the Global Institute for Strategic Research (GISR) in Doha, Qatar. His research primarily focuses on the Middle East, especially the Gulf region, with a particular interest in the interplay between energy dynamics and the diplomatic relationships between GCC countries and Asia, particularly China. Al-Tamimi earned his PhD in IR from the University of Durham (UK), where <a href="https://durham-repository.worktribe.com/output/1699544/china-saudi-arabia-relations-economic-partnership-or-strategic-alliance" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">his thesis examined the bilateral ties between China and Saudi Arabia</a>.
                 </p>
                 
                 <p>
