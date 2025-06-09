@@ -17,7 +17,7 @@ export async function sendEmail(formData: FormData) {
   try {
     await resend.emails.send({
       from: 'Contact Form <onboarding@resend.dev>', // This will be the sender address shown in the email
-      to: 'contact@mideaststrategia.org',
+      to: 'nasertamimi@gmail.com',
       subject: subject,
       replyTo: email,
       html: `<p>Name: ${name}</p><p>Email: ${email}</p><p>Message: ${message}</p>`,
