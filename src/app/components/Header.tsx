@@ -7,8 +7,8 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="py-6 px-6 md:px-12 border-b border-gray-200">
-      <div className="container mx-auto max-w-6xl flex justify-between items-center">
+    <header className="border-b border-gray-200">
+      <div className="container mx-auto max-w-6xl flex justify-between items-center py-6 px-4 sm:px-6">
         <div>
           <Link href="/" className="text-xl font-bold tracking-tight">
             MidEast<span className="font-light">Strategia</span>
