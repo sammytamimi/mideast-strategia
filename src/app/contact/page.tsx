@@ -1,7 +1,27 @@
+'use client';
+
+import { useState } from 'react';
+import { sendEmail } from './actions';
+
 export default function Contact() {
+  const [status, setStatus] = useState({ success: false, error: false, message: '' });
+
+  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    const formData = new FormData(event.currentTarget);
+    const result = await sendEmail(formData);
+
+    if (result.error) {
+      setStatus({ success: false, error: true, message: result.error });
+    } else {
+      setStatus({ success: true, error: false, message: "Your message has been sent successfully!" });
+      (event.target as HTMLFormElement).reset();
+    }
+  };
+
   return (
     <div className="container mx-auto px-4 sm:px-6 py-16 max-w-6xl">
-      <h1 className="text-4xl md:text-5xl font-bold mb-12 leading-tight text-center md:text-left">Contact</h1>
+      <h1 className="text-4xl md:text-5xl font-bold mb-12 leading-tight text-center md:text-left">Contact us</h1>
       <p className="text-lg text-gray-700 mb-12 md:text-left max-w-3xl">
         We welcome opportunities for collaboration, media inquiries, and speaking engagements. Please feel free to reach out through any of the channels below. We look forward to connecting with you.
       </p>
@@ -63,6 +83,39 @@ export default function Contact() {
           </div>
         </div>
       </div>
+
+      <div className="mt-16">
+        <div>
+          <form onSubmit={handleSubmit}>
+            <div className="mb-4">
+              <label htmlFor="name" className="block text-sm font-medium text-gray-700">Your name</label>
+              <input type="text" name="name" id="name" required className="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm" />
+            </div>
+            <div className="mb-4">
+              <label htmlFor="email" className="block text-sm font-medium text-gray-700">Your email</label>
+              <input type="email" name="email" id="email" required className="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm" />
+            </div>
+            <div className="mb-4">
+              <label htmlFor="subject" className="block text-sm font-medium text-gray-700">Subject</label>
+              <input type="text" name="subject" id="subject" required className="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm" />
+            </div>
+            <div className="mb-6">
+              <label htmlFor="message" className="block text-sm font-medium text-gray-700">Your message (optional)</label>
+              <textarea id="message" name="message" rows={4} className="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm"></textarea>
+            </div>
+            <div>
+              <button type="submit" className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium text-white bg-black hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black">
+                Submit
+              </button>
+            </div>
+          </form>
+          {status.message && (
+            <p className={`mt-4 text-sm ${status.success ? 'text-green-600' : 'text-red-600'}`}>
+              {status.message}
+            </p>
+          )}
+        </div>
+      </div>
     </div>
   );
-} 
+}
