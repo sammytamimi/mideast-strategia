@@ -6,7 +6,7 @@ import { sendEmail } from './actions';
 export default function Contact() {
   const [status, setStatus] = useState({ success: false, error: false, message: '' });
 
-  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+  /* const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const formData = new FormData(event.currentTarget);
     const result = await sendEmail(formData);
@@ -17,7 +17,7 @@ export default function Contact() {
       setStatus({ success: true, error: false, message: "Your message has been sent successfully!" });
       (event.target as HTMLFormElement).reset();
     }
-  };
+  }; */
 
   return (
     <div className="container mx-auto px-4 sm:px-6 py-16 max-w-6xl">
@@ -39,9 +39,9 @@ export default function Contact() {
             </div>
           </div>
           <div className="mt-4">
-            <a href="mailto:contact@mideaststrategia.org" className="text-blue-600 hover:text-blue-800 text-sm font-medium">
+            <p className="text-sm font-medium text-gray-700">
               contact@mideaststrategia.org
-            </a>
+            </p>
           </div>
         </div>
 
@@ -84,6 +84,7 @@ export default function Contact() {
         </div>
       </div>
 
+      {/*
       <div className="mt-16">
         <div>
           <form onSubmit={handleSubmit}>
@@ -116,6 +117,7 @@ export default function Contact() {
           )}
         </div>
       </div>
+      */}
     </div>
   );
 }
