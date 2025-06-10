@@ -5,6 +5,7 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
       <main className="flex-grow container mx-auto px-4 sm:px-6 py-16 max-w-6xl">
+        
         <div className="grid md:grid-cols-2 gap-8 md:gap-16 items-start">
           <div className="order-2 md:order-1 max-w-md mx-auto md:max-w-3xl md:mx-0">
             <h1 className="hidden md:block text-4xl md:text-5xl font-bold mb-12 leading-tight">
@@ -30,6 +31,25 @@ export default function Home() {
               height={500} 
               className="w-full h-full object-cover" 
             />
+          </div>
+        </div>
+
+        {/* Animated Social Proof Section */}
+        <div className="mt-16 text-center">
+          <h2 className="text-2xl font-bold mb-8">Featured In</h2>
+          <div className="scrolling-logos-container">
+            <div className="scrolling-logos">
+              {/* First set of logos */}
+              <Image src="/logos/brookings.svg" alt="Brookings" width={160} height={40} className="h-10 w-auto" />
+              <Image src="/logos/ispi.png" alt="ISPI" width={120} height={40} className="h-10 w-auto" />
+              <Image src="/logos/ecfr.svg.png" alt="ECFR" width={160} height={40} className="h-10 w-auto" />
+              <Image src="/logos/merics.png" alt="MERICS" width={180} height={40} className="h-10 w-auto" />
+              {/* Second set of logos (for seamless loop) */}
+              <Image src="/logos/brookings.svg" alt="Brookings" width={160} height={40} className="h-10 w-auto" />
+              <Image src="/logos/ispi.png" alt="ISPI" width={120} height={40} className="h-10 w-auto" />
+              <Image src="/logos/ecfr.svg.png" alt="ECFR" width={160} height={40} className="h-10 w-auto" />
+              <Image src="/logos/merics.png" alt="MERICS" width={180} height={40} className="h-10 w-auto" />
+            </div>
           </div>
         </div>
         
