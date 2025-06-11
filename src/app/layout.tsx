@@ -12,6 +12,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://mideast-strategia.com"),
   title: "MidEast Strategia | Middle East Geopolitical Analysis",
   description: "Expert analysis on China-Gulf relations and Middle East geopolitics by Dr. Naser Al-Tamimi. Research papers, strategic insights, and in-depth coverage of MENA region.",
   keywords: "Middle East, China Gulf relations, geopolitics, Saudi Arabia, Qatar, energy politics, MENA, strategic analysis",

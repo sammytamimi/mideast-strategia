@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 
+const FOUNDER_PUBS_HEADING = "Articles by Our Founder Published In";
+
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
@@ -36,7 +38,10 @@ export default function Home() {
 
         {/* Animated Social Proof Section */}
         <div className="mt-16 text-center">
-          <h2 className="text-2xl font-bold mb-8">Founder's Publications</h2>
+          <h2 className="text-2xl font-bold mb-8">
+            {FOUNDER_PUBS_HEADING}
+            <sup className="text-xs align-super">*</sup>
+          </h2>
           <div className="scrolling-logos-container">
             <div className="scrolling-logos">
               {/* First set of logos */}
