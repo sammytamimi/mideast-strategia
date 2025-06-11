@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const FOUNDER_PUBS_HEADING = "Articles by Our Founder Published In";
+const FOUNDER_PUBS_HEADING = "Founder Published In";
 
 export default function Home() {
   return (
